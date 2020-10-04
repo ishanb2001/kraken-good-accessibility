@@ -23,6 +23,11 @@ img {
   width: 100%;
 }
 
+nav a:focus {
+  outline: .2rem solid #000;
+  outline-offset: .1rem;
+}
+
 header {
   background-image: url("../images/anchors.svg");
   color: #fff;
